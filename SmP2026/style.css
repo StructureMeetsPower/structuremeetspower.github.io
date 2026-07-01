@@ -111,6 +111,12 @@ a:hover{
 .programme-table tr:nth-child(odd) {
   background:rgba(169,189,214,.25);
 }
+.programme-table th {
+  text-align: left;
+  padding: .65rem .9rem;
+  border-bottom: 2px solid var(--cambridge-700);
+  background: rgba(169,189,214,.45);
+}
 /* ===== Footer ===== */
 .site-footer{
   position:relative;
