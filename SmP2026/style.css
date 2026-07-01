@@ -184,3 +184,19 @@ a:hover{
     overflow-wrap:break-word;
   }
 }
+
+.programme-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.programme-table th {
+  text-align: left;
+  border-bottom: 2px solid;
+  padding: 0.4rem 0.5rem;
+}
+
+.programme-table td {
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
