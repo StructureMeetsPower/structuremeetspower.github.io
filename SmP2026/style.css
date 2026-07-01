@@ -117,6 +117,17 @@ a:hover{
   border-bottom: 2px solid var(--cambridge-700);
   background: rgba(169,189,214,.45);
 }
+.programme-table .brk {
+  position: relative;
+  text-align: center;
+}
+
+.programme-table .brk-time {
+  position: absolute;
+  left: .9rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
 /* ===== Footer ===== */
 .site-footer{
   position:relative;
