@@ -112,21 +112,19 @@ a:hover{
   background:rgba(169,189,214,.25);
 }
 .programme-table th {
-  text-align: left;
+  text-align: center;
   padding: .65rem .9rem;
   border-bottom: 2px solid var(--cambridge-700);
   background: rgba(169,189,214,.45);
 }
-.programme-table .brk {
-  position: relative;
+.programme-table .time-col {
+  width: 18%;
+}
+.programme-table .ev-break {
   text-align: center;
 }
-
-.programme-table .brk-time {
-  position: absolute;
-  left: .9rem;
-  top: 50%;
-  transform: translateY(-50%);
+.programme-table .inv {
+  font-weight: 700;
 }
 /* ===== Footer ===== */
 .site-footer{
